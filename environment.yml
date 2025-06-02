@@ -1,0 +1,25 @@
+name: convnext-cuda
+channels:
+  - defaults
+  - pytorch
+  - nvidia
+  - conda-forge
+dependencies:
+  - python=3.9
+  - pytorch
+  - torchvision
+  - torchaudio
+  - cudatoolkit=12.6
+  - onnx
+  - onnxruntime
+  - onnx-simplifier
+  - onnx-graphsurgeon
+  - cmake
+  - ninja
+  - gxx_linux-64
+  - matplotlib
+  - jupyter
+  - pip
+  - pip:
+    - polygraphy
+    - tensorrt
